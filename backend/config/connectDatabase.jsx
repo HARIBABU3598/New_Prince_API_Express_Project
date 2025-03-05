@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose');//mongoose is a library used to connect with mongoDB
 
 const connectDatabase = () => {
    mongoose.connect(process.env.DB_URL).then((con) => {
@@ -7,4 +7,4 @@ const connectDatabase = () => {
    }) 
 };
 
-module.exports = connectDatabase;
+module.exports = connectDatabase;//exporting module

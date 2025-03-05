@@ -1,4 +1,4 @@
-const ProductModel = require("../models/productModel.jsx");
+const ProductModel = require("../models/productModel.jsx");//importing product model
 
 // Get Products API = /api/v1/products
 exports.getProducts = async (request, response, next) => {
